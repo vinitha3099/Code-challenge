@@ -1,0 +1,64 @@
+.report-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #293845;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 8px;
+}
+
+.details-content{
+    margin-left: 2%;
+    width: 100%;
+}
+.report-pass{
+    color: green;
+}
+
+.report-fail{
+    color: red;
+    padding-left: 15px;
+}
+
+.report-org{
+    padding: 3%;
+    border-right: 2px solid;
+}
+
+.test-details{
+    border:  1px solid #293845;
+    background-color: lightgray;
+    padding: 8px;
+    margin-top: 5%;
+    width: 60%;
+}
+
+.details-fail-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #293845;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 4px;
+    border-left: 5px solid red;
+}
+
+.details-pass-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #293845;
+    margin-top: 20px;
+    background-color: lightgray;
+    padding: 4px;
+    border-left: 5px solid green;
+}
+
+.details-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
